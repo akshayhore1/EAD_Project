@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rainbow Clothing Store</title>
+    <link rel="stylesheet" href="style1.css" />
+    <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+            integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+            crossorigin="anonymous"
+    />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+            rel="stylesheet"
+    />
+
+</head>
+<body>
+<!-- Navigation panel -->
+<div class="container">
+    <h1 class="label">Staff Login</h1>
+    <form class="login_form" name="myForm" action="in-user_inventory.html" onsubmit="return validated()" method="post">
+        <div class="font">Username</div>
+        <input autocomplete="off" type="text" name="username">
+        <div id="username_error">Username is either incorrect or blank</div>
+        <div class="font font2">Password</div>
+        <input type="password" name="password">
+        <div id="password_error">Password is either incorrect or blank</div>
+        <button type="submit">Login</button>
+        <a href="Home.html">Back to home page</a>
+    </form>
+</div>
+
+
+<!--<div class="container">
+    <h1 class="label">Staff Login</h1>
+   &lt;!&ndash; <form class="login_form" action="memberHome.html" method="post" name="form" onsubmit=" return validated()">&ndash;&gt;
+    <form  class="login_form" name="myForm" action="In-user_Menu.html" onsubmit="return validated()" method="post">
+        <div class="font">Username</div>
+        <input id="username" autocomplete="off" type="text" name="username">
+        <div id="username_error">Username is either incorrect or blank</div>
+        <div class="font">Password</div>
+        <input id="password" type="password" name="password">
+        <div id="password_error">Password is either incorrect or blank</div>
+        <button type="submit">Login</button>
+
+    </form>
+</div>-->
+
+<script src="validate.js"></script>
+</body>
+</html>
